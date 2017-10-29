@@ -41,7 +41,11 @@ next_choice = function next_choice() {
 
     if (choices.length === 0) {
         $('#next-button').prop('disabled', true);
+        $('#reload-button').show();
     }
 };
 
 $('#next-button').click(next_choice);
+$('#reload-button').click(function () {
+    location.reload(true);
+});

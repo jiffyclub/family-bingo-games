@@ -6,7 +6,7 @@ body {
     margin-top: 10px;
 }
 
-#next-button {
+.bingo-button {
     width: 60%;
 }
 
@@ -20,4 +20,8 @@ body {
 
 .bingo-history-image {
     height: 50px;
+}
+
+#reload-button {
+    display: none;
 }
