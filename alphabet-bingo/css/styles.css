@@ -1,0 +1,23 @@
+body {
+    font-family: monospace;
+}
+
+.bingo {
+    margin-top: 10px;
+}
+
+#next-button {
+    width: 60%;
+}
+
+#bingo-image {
+    height: 300px;
+}
+
+#bingo-history {
+    margin-top: 10px;
+}
+
+.bingo-history-image {
+    height: 50px;
+}
